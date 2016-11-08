@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Conquizgamer</title>
+<!--  <link rel="stylesheet" type="text/css" href="conquizgamer.css">-->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="conquizgamer.js"></script>
+  <script src="conquizgamerController.js"></script>
+  <script src="answerEvaluaterService.js"></script>
+  <script src="quizGeneratorService.js"></script>
+</head>
+
+<body>
+  <div ng-app="conquizgamer" ng-controller="conquizgamerController">
+    <form>
+      <div ng-bind="quiz.question"></div>
+      <div ng-repeat="answer in quiz.answers">
+        <input type="button" value="{{answer}}" ng-click="evaluate(answer)">
+      </div>
+      <div>Points: {{points}}</div>
+    </form>
+  </div>
+</body>
+
+</html>

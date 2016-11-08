@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Sid Meier's Civilization",
+    "genre": "turn-based strategy",
+    "developer": "MPS Labs",
+    "releaseDate": 1991
+  },
+  {
+    "name": "Warcraft: Orcs & Humans",
+    "genre": "real-time strategy",
+    "developer": "Blizzard Entertrainment",
+    "releaseDate": 1994
+  },
+  {
+    "name": "Doom",
+    "genre": "first-person shooter",
+    "developer": "id Software",
+    "releaseDate": 1993
+  },
+  {
+    "name": "Max Payne",
+    "genre": "third-person shooter",
+    "developer": "Remedy Entertrainment",
+    "releaseDate": 2001
+  }
+]
