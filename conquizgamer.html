@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Conquizgamer</title>
-<!--  <link rel="stylesheet" type="text/css" href="conquizgamer.css">-->
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
   <script src="conquizgamer.js"></script>
   <script src="conquizgamerController.js"></script>
@@ -13,13 +13,12 @@
 </head>
 
 <body>
-  <div ng-app="conquizgamer" ng-controller="conquizgamerController">
+  <div ng-app="conquizgamer" ng-controller="conquizgamerController" class="w3-card-4 w3-margin">
     <form>
-      <div ng-bind="quiz.question"></div>
+      <h3 class="w3-container w3-light-grey w3-padding-8">{{quiz.question}}<span class="w3-badge w3-green w3-right">{{points}}</span></h3>
       <div ng-repeat="answer in quiz.answers">
-        <input type="button" value="{{answer}}" ng-click="evaluate(answer)">
+        <button ng-click="evaluate(answer)" class="w3-btn w3-btn-block w3-round-large w3-large w3-blue w3-hover-yellow w3-margin-bottom">{{answer}}</button>
       </div>
-      <div>Points: {{points}}</div>
     </form>
   </div>
 </body>

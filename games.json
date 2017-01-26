@@ -1,26 +1,382 @@
 [
   {
-    "name": "Sid Meier's Civilization",
-    "genre": "turn-based strategy",
+    "characters": [
+      "Mario",
+      "Luigi",
+      "Princess Toadstool",
+      "Bowser"
+    ],
+    "developer": "Nintendo R&D4",
+    "genre": "action",
+    "items": [
+      "1-Up mushroom",
+      "Fire Flower",
+      "Starman",
+      "Super Mushroom"
+    ],
+    "locations": [
+      "Mushroom Kingdom"
+    ],
+    "name": "Super Mario Bros.",
+    "releaseDate": 1985,
+    "subgenre": "platformer"
+  },
+
+
+  {
+    "characters": [
+      "Pitfall Harry"
+    ],
+    "developer": "Activision",
+    "genre": "action",
+    "name": "Pitfall!",
+    "releaseDate": 1982,
+    "subgenre": "platformer"
+  },
+
+
+  {
+    "developer": "Nintendo R&D1",
+    "genre": "action",
+    "name": "Duck Hunt",
+    "releaseDate": 1984,
+    "subgenre": "light gun shooter"
+  },
+
+
+  {
+    "characters": [
+      "Pac-Man",
+      "Blinky",
+      "Pinky",
+      "Inky",
+      "Clyde"
+    ],
+    "developer": "Atari, Inc",
+    "genre": "action",
+    "name": "Pac-Man",
+    "releaseDate": 1980,
+    "subgenre": "maze game"
+  },
+
+
+  {
+    "characters": [
+      "Aquamentus",
+      "Digdogger",
+      "Dodongo",
+      "Ganon",
+      "Gleeok",
+      "Gohma",
+      "Impa",
+      "Link",
+      "Manhandla",
+      "Patra",
+      "Princess Zelda"
+    ],
+    "developer": "Nintendo R&D4",
+    "genre": "action-adventure",
+    "items": [
+      "Triforce of Power",
+      "Triforce of Wisdom"
+    ],
+    "locations": [
+      "Death Mountain",
+      "Hyrule",
+      "Lost Woods"
+    ],
+    "name": "The Legend of Zelda",
+    "releaseDate": 1986
+  },
+
+
+  {
+    "developer": "Alexey Pajitnov",
+    "genre": "puzzle",
+    "name": "Tetris",
+    "releaseDate": 1984
+  },
+
+
+  {
+    "characters": [
+      "Abraham Lincoln",
+      "Montezuma",
+      "Hammurabi",
+      "Mao Tse Tung",
+      "Ramesses",
+      "Elizabeth I",
+      "Napoleon",
+      "Frederick the Great",
+      "Alexander",
+      "Mohandas Gandhi",
+      "Tokugawa",
+      "Genghis Khan",
+      "Julius Caesan",
+      "Stalin",
+      "Shaka"
+    ],
     "developer": "MPS Labs",
-    "releaseDate": 1991
+    "factions": [
+      "American",
+      "Aztec",
+      "Babylonian",
+      "Chinese",
+      "Egyptian",
+      "English",
+      "French",
+      "German",
+      "Greek",
+      "Indian",
+      "Japanese",
+      "Mongolian",
+      "Roman",
+      "Russian",
+      "Zulu"
+    ],
+    "genre": "strategy",
+    "name": "Sid Meier's Civilization",
+    "releaseDate": 1991,
+    "resources": [
+      "Coal",
+      "Fish",
+      "Game",
+      "Gems",
+      "Gold",
+      "Horses",
+      "Oasis",
+      "Oil",
+      "Seals"
+    ],
+    "subgenre": "turn-based strategy"
   },
+
+
   {
-    "name": "Warcraft: Orcs & Humans",
-    "genre": "real-time strategy",
+    "characters": [
+      "Blackhand",
+      "Garona",
+      "Griselda",
+      "King Llane",
+      "King Wrynn",
+      "Lady Varia",
+      "Medivh",
+      "Sir Lothar",
+      "Turok"
+    ],
     "developer": "Blizzard Entertrainment",
-    "releaseDate": 1994
+    "factions": [
+      "Human",
+      "Orc"
+    ],
+    "genre": "strategy",
+    "items": [
+      "Holy Lance",
+      "Shadow Spear",
+      "Tome of Divinity"
+    ],
+    "locations": [
+      "Black Morass",
+      "Black Rock Spire",
+      "Dead Mines",
+      "Forest of Elwynn",
+      "Goldshire",
+      "Grand Hamlet",
+      "Kingdom of Azeroth",
+      "Kyross",
+      "Moonbrook",
+      "Northshire Abbey",
+      "Red Ridge Mountains",
+      "Rockard",
+      "Stonard",
+      "Stormwind Keep",
+      "Sunnyglade",
+      "Swamps of Sorrow"
+    ],
+    "name": "Warcraft: Orcs & Humans",
+    "releaseDate": 1994,
+    "resources": [
+      "Gold",
+      "Wood"
+    ],
+    "subgenre": "real-time strategy"
   },
+
+
   {
-    "name": "Doom",
-    "genre": "first-person shooter",
+    "characters": [
+      "Cyberdemon",
+      "Spider Mastermind"
+    ],
     "developer": "id Software",
-    "releaseDate": 1993
+    "factions": [
+      "Union Aerospace Corporation (UAC)"
+    ],
+    "genre": "action",
+    "items": [
+      "BFG 9000",
+      "Soul Sphere"
+    ],
+    "locations": [
+      "Deimos",
+      "Dis",
+      "Earth",
+      "Fortress of Mystery",
+      "Hell",
+      "Limbo",
+      "Mars",
+      "Mt. Erebus",
+      "Pandemonium",
+      "Phobos",
+      "Tower of Babel"
+    ],
+    "name": "Doom",
+    "releaseDate": 1993,
+    "subgenre": "first-person shooter"
   },
+
+
   {
-    "name": "Max Payne",
-    "genre": "third-person shooter",
+    "characters": [
+      "Alex Balder",
+      "Alfred Woden",
+      "B.B. Hensley",
+      "Boris Dime",
+      "Candy Dawn",
+      "Captain BaseBallBat-Boy",
+      "Deputy Chief Jim Bravura",
+      "Dino Punchinello",
+      "Don Angelo Punchinello",
+      "Frankie Niagara",
+      "Jack Lupino",
+      "Jake Punchinello",
+      "Kyra Silver",
+      "Lisa Punchinello",
+      "Max Payne",
+      "Michelle Payne",
+      "Mickey Punchinello",
+      "Mike The Cowboy",
+      "Mona Sax",
+      "Nicole Horne",
+      "Rico Muerte",
+      "Rose Payne",
+      "Vinnie Gognitti",
+      "Vladimir Lem"
+    ],
     "developer": "Remedy Entertrainment",
-    "releaseDate": 2001
+    "factions": [
+      "Aesir Corporation",
+      "Cleaners",
+      "Drug Enforcement Administration (DEA)",
+      "Inner Circle",
+      "New York City Police Department (NYPD)",
+      "Punchinello crime family"
+    ],
+    "genre": "action",
+    "items": [
+      "Valkyr"
+    ],
+    "locations": [
+      "Aesir Headquarters",
+      "Asgard Building",
+      "Casa di Angelo",
+      "Charon",
+      "Choir Communications garage",
+      "Cold Steel",
+      "Luigi's Laundry",
+      "Lupino's Hotel",
+      "New York City",
+      "Payne residence",
+      "Pawnbroker",
+      "Punchinello manor",
+      "Ragna Rock",
+      "Roscoe Bank",
+      "Roscoe Street Station",
+      "Vodka"
+    ],
+    "name": "Max Payne",
+    "releaseDate": 2001,
+    "subgenre": "third-person shooter"
+  },
+
+
+  {
+    "characters": [
+      "Agent Delphi",
+      "Brigadier General Mark Jamison Sheppard",
+      "Colonel J.C. Carter",
+      "Dr. Ignatio Mobius",
+      "Dr. Wong Hu Chan",
+      "Kane",
+      "Seth"
+    ],
+    "developer": "Westwood Studios",
+    "factions": [
+      "Global Defense Initiative (GDI)",
+      "Brotherhood of Nod (NOD)"
+    ],
+    "genre": "strategy",
+    "locations": [
+      "Africa",
+      "Al-Alamayn",
+      "Al-Kharijah",
+      "Albania",
+      "Arad",
+      "Austria",
+      "Belgrade",
+      "Berlin",
+      "Białystok",
+      "Brandenburg Gate",
+      "Bosnia and Herzegovina",
+      "Bulgaria",
+      "Camp David",
+      "Chad",
+      "Corinth",
+      "Egypt",
+      "Estonia",
+      "Europe",
+      "France",
+      "Gabon",
+      "GDI High Command",
+      "Germany",
+      "Grain Trade Center",
+      "Great Britain",
+      "Greece",
+      "Italy",
+      "Kafia-Kingi",
+      "Kharga Oasis",
+      "Libreville",
+      "Libya",
+      "London",
+      "Niamey",
+      "Niger",
+      "Nile",
+      "Niš",
+      "Oum Hadjer",
+      "Paris",
+      "Paris Tower",
+      "Parliament House",
+      "Parnu",
+      "Poland",
+      "Romania",
+      "Sarajevo",
+      "Shkodër",
+      "Sofia",
+      "Sudan",
+      "Trieste",
+      "Tripoli",
+      "United Kingdom",
+      "United Nations Military Command Center",
+      "Vienna",
+      "Washington, D.C.",
+      "White House",
+      "Yugoslavia"
+    ],
+    "name": "Command & Conquer",
+    "releaseDate": 1995,
+    "resources": [
+      "Tiberium"
+    ],
+    "subgenre": "real-time strategy"
   }
 ]

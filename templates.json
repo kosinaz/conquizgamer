@@ -1,0 +1,57 @@
+[
+  {
+    "category": "characters",
+    "subcategory": "is",
+    "question": "Which game features a character called %s?"
+  },
+  {
+    "category": "developer",
+    "subcategory": "is",
+    "question": "Which game is made by %s?"
+  },
+  {
+    "category": "developer",
+    "subcategory": "not",
+    "question": "Which game is NOT made by %s?"
+  },
+  {
+    "category": "factions",
+    "subcategory": "is",
+    "question": "Which game features a faction called %s?"
+  },
+  {
+    "category": "items",
+    "subcategory": "is",
+    "question": "Which game features an item called %s?"
+  },
+  {
+    "category": "locations",
+    "subcategory": "is",
+    "question": "Which game features a location called %s?"
+  },
+  {
+    "category": "releaseDate",
+    "subcategory": "is",
+    "question": "Which game has been released in %s?"
+  },
+  {
+    "category": "releaseDate",
+    "subcategory": "not",
+    "question": "Which game has NOT been released in %s?"
+  },
+  {
+    "category": "releaseDate",
+    "subcategory": "min",
+    "question": "Which game is the oldest?"
+  },
+  {
+    "category": "releaseDate",
+    "subcategory": "max",
+    "question": "Which game is the newest?"
+  },
+  {
+    "category": "resources",
+    "subcategory": "is",
+    "question": "Which game features %s as a resource type?"
+  }
+]
