@@ -30,7 +30,8 @@ conquizgamer.factory('quizGeneratorService', [
         question = template.question.replace('%s', subject);
         return {
           question: question,
-          answers: answers
+          answers: answers,
+          correct: game.name
         };
       }
     };

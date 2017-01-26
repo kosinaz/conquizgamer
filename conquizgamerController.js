@@ -19,9 +19,12 @@ conquizgamer.controller('conquizgamerController', [
         );
       });
     $scope.points = 0;
-    /*$scope.evaluate = function (answer) {
+    $scope.evaluate = function (answer) {
       $scope.points += answerEvaluaterService.evaluate($scope.quiz, answer);
-      $scope.quiz = quizGeneratorService.generate();
-    };*/
+      $scope.quiz = quizGeneratorService.generate(
+        $scope.templates,
+        $scope.games
+      );
+    };
   }
 ]);
