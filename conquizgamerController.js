@@ -25,9 +25,10 @@ conquizgamer.controller('conquizgamerController', [
       .then(function (values) {
         $scope.templates = values[1].data;
         $scope.games = values[0].data;
+        $scope.remaining = $scope.games.slice();
         $scope.quiz = quizGeneratorService.generate(
           $scope.templates,
-          $scope.games
+          $scope.remaining
         );
       });
     $scope.points = 5;
@@ -57,12 +58,13 @@ conquizgamer.controller('conquizgamerController', [
       $timeout(function () {
         $scope.quiz = quizGeneratorService.generate(
           $scope.templates,
-          $scope.games
+          $scope.remaining
         );
         $scope.points = 5;
         if ($scope.fails > 2) {
           $scope.totalPoints = 0;
           $scope.fails = 0;
+          $scope.remaining = $scope.games.slice();
         }
         $scope.evaluating = false;
       }, 3000);

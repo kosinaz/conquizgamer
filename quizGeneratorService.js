@@ -28,6 +28,7 @@ conquizgamer.factory('quizGeneratorService', [
           Math.floor(Math.random() * filtered.length),
           1
         )[0];
+        games.splice(games.indexOf(game), 1);
         subject = game[template.category];
         if (Array.isArray(subject)) {
           subject = subject[Math.floor(Math.random() * subject.length)];
