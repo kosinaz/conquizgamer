@@ -378,5 +378,297 @@
       "Tiberium"
     ],
     "subgenre": "real-time strategy"
+  },
+
+
+  {
+    "characters": [
+      "Aleksandra Zarya Zaryanova",
+      "Amélie Lacroix Widowmaker",
+      "Ana Amari",
+      "Athena",
+      "Bastion",
+      "Doomfist",
+      "Dr. Angela Ziegler Mercy",
+      "Dr. Harold Winston",
+      "Dr. Mei-Ling Zhou",
+      "Emily",
+      "Fareeha Amari Pharah",
+      "Gabriel Reyes Reaper",
+      "Genji Shimada",
+      "Hal-Fred Glitchbot",
+      "Hana Song D.Va",
+      "Hanzo Shimada",
+      "Jamison Fawkes Junkrat",
+      "Jesse McCree",
+      "John Jack Morrison Soldier: 76",
+      "Katya Volskaya",
+      "Lena Oxton Tracer",
+      "Liao",
+      "Lúcio Correia dos Santos",
+      "Mako Rutledge Roadhog",
+      "Reinhardt Wilhelm",
+      "Satya Vaswani Symmetra",
+      "Sombra",
+      "Tekhartha Mondatta",
+      "Tekhartha Zenyatta",
+      "Torbjörn Lindholm",
+      "Winston"
+    ],
+    "developer": "Blizzard Entertrainment",
+    "factions": [
+      "Australian Liberation Front",
+      "Deadlock Gang",
+      "Helix Security International",
+      "Lucheng Interstellar",
+      "LumériCo",
+      "Overwatch",
+      "Shambali",
+      "Shimada crime family",
+      "Talon organization",
+      "United States Armed Forces",
+      "Volskaya industries"
+    ],
+    "genre": "action",
+    "items": [
+      "Dragonblade",
+      "Helix rocket launcher",
+      "Raptora Mark VI",
+      "Valkyrie suit"
+    ],
+    "locations": [
+      "Africa",
+      "Antarctica",
+      "Black Forest",
+      "China",
+      "Dorado",
+      "Egypt",
+      "Eichenwalde",
+      "Germany",
+      "Giza Plateau",
+      "Greece",
+      "Hanamura",
+      "Hollywood",
+      "Ilios",
+      "Iraq",
+      "Japan",
+      "King's Row",
+      "Lijiang Tower",
+      "London",
+      "Mexico",
+      "Nepal",
+      "Numbani",
+      "Route 66",
+      "Russia",
+      "Stuttgart",
+      "Temple of Anubis",
+      "United States",
+      "Volskaya Industries",
+      "Watchpoint: Gibraltar"
+    ],
+    "name": "Overwatch",
+    "releaseDate": 2016,
+    "subgenre": "first-person shooter"
+  },
+
+
+  {
+    "characters": [
+      "Ender Dragon",
+      "Wither"
+    ],
+    "developer": "Mojang",
+    "genre": "sandbox",
+    "items": [
+      "Bottle o' Enchanting",
+      "Elytra",
+      "End Crystal",
+      "Eye of Ender",
+      "Nether Star",
+      "Totem of Undying"
+    ],
+    "locations": [
+      "Nether",
+      "The End"
+    ],
+    "name": "Minecraft",
+    "releaseDate": 2011
+  },
+
+
+  {
+    "characters": [
+      "Dr. Gordon Freeman",
+      "G-Man",
+      "Gonarch",
+      "Nihilanth"
+    ],
+    "developer": "Valve",
+    "factions": [
+      "Hazardous Environment Combat Unit (HECU)"
+    ],
+    "genre": "action",
+    "items": [
+      "HEV suit"
+    ],
+    "locations": [
+      "Black Mesa Research Facility",
+      "New Mexico",
+      "Xen"
+    ],
+    "name": "Half-Life",
+    "releaseDate": 1998,
+    "subgenre": "first-person shooter"
+  },
+
+
+  {
+    "developer": "Chris Sawyer",
+    "genre": "simulation",
+    "name": "Transport Tycoon",
+    "releaseDate": 1994,
+    "resources": [
+      "Coal",
+      "Grain",
+      "Goods",
+      "Iron ore",
+      "Livestock",
+      "Mail",
+      "Oil",
+      "Passengers",
+      "Steel",
+      "Valuables",
+      "Wood"
+    ],
+    "subgenre": "business simulation"
+  },
+
+
+  {
+    "developer": "Blue Byte Software",
+    "genre": "strategy",
+    "name": "The Settlers",
+    "releaseDate": 1994,
+    "resources": [
+      "Coal",
+      "Gold",
+      "Granite",
+      "Iron ore",
+      "Lumber"
+    ],
+    "subgenre": "real-time strategy"
+  },
+
+
+  {
+    "characters": [
+      "Agar",
+      "Ambrose",
+      "Antoine",
+      "Arie",
+      "Ariel",
+      "Arturius",
+      "Astra",
+      "Atlas",
+      "Barok",
+      "Carlawn",
+      "Crag Hack",
+      "Crodo",
+      "Dimitri",
+      "Ector",
+      "Ergon",
+      "Falagar",
+      "Gem",
+      "JoJosh",
+      "Kastore",
+      "Kelzen",
+      "King Morglin Ironfist",
+      "King Ragnar Ironfist",
+      "Lord Alamar",
+      "Lord Haart",
+      "Lord Kilburn",
+      "Lord Slayer",
+      "Luna",
+      "Maximus",
+      "Natasha",
+      "Queen Ironfist",
+      "Queen Lamanda",
+      "Rebecca",
+      "Sandro",
+      "Sir Gallant",
+      "Thundax",
+      "Troyan",
+      "Tsabu",
+      "Tyro",
+      "Vatawna",
+      "Vesper",
+      "Wrathmont",
+      "Yog"
+    ],
+    "developer": "New World Computing",
+    "factions": [
+      "Forest",
+      "Farm",
+      "Plains",
+      "Mountain"
+    ],
+    "genre": "strategy",
+    "items": [
+      "Arcane Necklace",
+      "Astrolabe",
+      "Armored Gauntlet",
+      "Ballista",
+      "Caster's Bracelet",
+      "Clover",
+      "Coin",
+      "Compass",
+      "Defender Helm",
+      "Divine Breastplate",
+      "Dragon Sword",
+      "Endless Bag",
+      "Endless Purse",
+      "Endless Sack",
+      "Eye of Goros",
+      "Fizbin",
+      "Foremost Scroll",
+      "Giant Flail",
+      "Horseshoe",
+      "Major Scroll",
+      "Mage's Ring",
+      "Medal of Courage",
+      "Medal of Distinction",
+      "Medal of Honor",
+      "Medal of Valor",
+      "Minor Scroll",
+      "Nomad Boots",
+      "Power Axe",
+      "Rabbit's Foot",
+      "Stealth Shield",
+      "Superior Scroll",
+      "Thunder Mace",
+      "Traveler's Boots",
+      "Ultimate Cloak",
+      "Ultimate Spellbook",
+      "Ultimate Sword",
+      "Ultimate Wand",
+      "Witch's Broach"
+    ],
+    "locations": [
+      "Antagarich",
+      "Enroth"
+    ],
+    "name": "Heroes of Might and Magic: A Strategic Quest",
+    "releaseDate": 1995,
+    "resources": [
+      "Crystal",
+      "Gems",
+      "Gold",
+      "Mercury",
+      "Ore",
+      "Sulfur",
+      "Wood"
+    ],
+    "subgenre": "turn-based strategy"
   }
 ]
+
