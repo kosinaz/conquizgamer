@@ -25,6 +25,160 @@
 
   {
     "characters": [
+      "Donkey Kong",
+      "Mario",
+      "Pauline"
+    ],
+    "developer": "Nintendo R&D1",
+    "genre": "action",
+    "name": "Donkey Kong",
+    "releaseDate": 1981,
+    "subgenre": "platformer"
+  },
+
+
+  {
+    "characters": [
+      "Jaffar"
+    ],
+    "developer": "Brøderbund",
+    "genre": "action",
+    "locations": [
+      "Persia"
+    ],
+    "name": "Prince of Persia",
+    "releaseDate": 1989,
+    "subgenre": "platformer"
+  },
+
+
+  {
+    "characters": [
+      "Bomb Man",
+      "Cut Man",
+      "Dr. Light",
+      "Dr. Wily",
+      "Elec Man",
+      "Fire Man",
+      "Guts Man",
+      "Ice Man",
+      "Mega Man"
+    ],
+    "developer": "Capcom",
+    "genre": "action",
+    "items": [
+      "Mega Buster"
+    ],
+    "name": "Mega Man",
+    "releaseDate": 1987,
+    "subgenre": "platformer"
+  },
+
+
+  {
+    "characters": [
+      "Doctor Ivo Eggman Robotnik",
+      "Sonic"
+    ],
+    "developer": "Sonic Team",
+    "genre": "action",
+    "items": [
+      "Chaos Emerald"
+    ],
+    "locations": [
+      "Green Hill",
+      "Labyrinth",
+      "Marble",
+      "Scrap Brain",
+      "South Island",
+      "Spring Yard",
+      "Star Light"
+    ],
+    "name": "Sonic the Hedgehog",
+    "releaseDate": 1991,
+    "subgenre": "platformer"
+  },
+
+
+  {
+    "characters": [
+      "Devan Shell",
+      "Eva Earlong",
+      "Jazz Jackrabbit"
+    ],
+    "developer": "Epic MegaGames",
+    "genre": "action",
+    "items": [
+      "LFG-2000"
+    ],
+    "locations": [
+      "Bloxonius",
+      "Candion",
+      "Carrotus",
+      "Ceramicus",
+      "Crysilis",
+      "Deckstar",
+      "Deserto",
+      "Diamondus",
+      "Dreempipes",
+      "Exoticus",
+      "Fanolint",
+      "Holidaius",
+      "Industrius",
+      "Jungrock",
+      "Lagunicus",
+      "Letni",
+      "Marbelara",
+      "Medivo",
+      "Megairbase",
+      "Muckamok",
+      "Nippius",
+      "Orbitus",
+      "Pezrock",
+      "Raneforus",
+      "Scraparap",
+      "Sluggion",
+      "Stonar",
+      "Technoir",
+      "Tubelectric",
+      "Turtemple"
+    ],
+    "name": "Jazz Jackrabbit",
+    "releaseDate": 1994,
+    "subgenre": "platformer"
+  },
+
+
+  {
+    "characters": [
+      "Abe",
+      "Big Face",
+      "Elum",
+      "Molluck",
+      "Shrykull"
+    ],
+    "developer": "Oddworld Inhabitants",
+    "factions": [
+      "Glukkon",
+      "Mudokon",
+      "Paramite",
+      "Scrab",
+      "Slig"
+    ],
+    "genre": "action",
+    "locations": [
+      "Paramonia",
+      "RuptureFarms",
+      "Scrabania"
+    ],
+    "name": "Oddworld: Abe's Oddysee",
+    "releaseDate": 1997,
+    "subgenre": "platformer"
+  },
+
+
+  {
+    "characters": [
       "Pitfall Harry"
     ],
     "developer": "Activision",
