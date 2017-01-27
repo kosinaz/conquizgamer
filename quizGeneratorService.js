@@ -6,19 +6,39 @@ conquizgamer.factory('quizGeneratorService', [
     'use strict';
     return {
       generate: function (templates, games) {
-        var template, game, question, subject, answers, i, j;
+        var
+          answers,
+          filtered,
+          game,
+          i,
+          j,
+          question,
+          subject,
+          template;
         templates = $filter('filter')(templates, {"subcategory": "is"});
         template = templates[Math.floor(Math.random() * templates.length)];
-        games = $filter('filter')(games, function (value, index, array) {
+        filtered = $filter('filter')(games, function (value, index, array) {
           return value.hasOwnProperty(template.category);
         });
-        game = games.splice(Math.floor(Math.random() * games.length), 1)[0];
+        game = filtered.splice(
+          Math.floor(Math.random() * filtered.length),
+          1
+        )[0];
         subject = game[template.category];
         if (Array.isArray(subject)) {
           subject = subject[Math.floor(Math.random() * subject.length)];
         }
+        games = $filter('filter')(games, function (value, index, array) {
+          if (!(value.hasOwnProperty(template.category))) {
+            return true;
+          }
+          if (Array.isArray(value[template.category])) {
+            return !(value[template.category].includes(subject));
+          }
+          return value[template.category] !== subject;
+        });
         answers = [];
-        while (games.length > 0) {
+        for (i = 0; i < 5; i += 1) {
           j = Math.floor(Math.random() * games.length);
           answers.push(games.splice(j, 1)[0].name);
         }
