@@ -21,12 +21,10 @@
       </div>
       <h1><span class="w3-badge w3-green">{{points}}</span></h1>
       <h1>
-        <span ng-if="fails < 3">😎</span>
-        <span ng-if="fails > 2">😣</span>
-        <span ng-if="fails < 2">😎</span>
-        <span ng-if="fails > 1">😣</span>
-        <span ng-if="fails < 1">😎</span>
-        <span ng-if="fails > 0">😣</span>
+        <span ng-if="fails === 0">😎😎😎</span>
+        <span ng-if="fails === 1">😎😎😣</span>
+        <span ng-if="fails === 2">😎😣😣</span>
+        <span ng-if="fails === 3">😣😣😣</span>
       </h1>
     </form>
   </div>
