@@ -14,7 +14,8 @@ conquizgamer.factory('quizGeneratorService', [
           j,
           question,
           subject,
-          template;
+          template,
+          wrongAnswers;
         templates = $filter('filter')(templates, {
           "subcategory": "is",
           "category": "!releaseDate"
@@ -40,21 +41,19 @@ conquizgamer.factory('quizGeneratorService', [
           }
           return value[template.category] !== subject;
         });
-        answers = [];
+        answers = [{
+          text: game.name
+        }];
         for (i = 0; i < 5; i += 1) {
           j = Math.floor(Math.random() * games.length);
-          answers.push(games.splice(j, 1)[0].name);
+          answers.push({
+            text: games.splice(j, 1)[0].name
+          });
         }
-        answers.splice(
-          Math.floor(Math.random() * answers.length),
-          0,
-          game.name
-        );
         question = template.question.replace('%s', subject);
         return {
           question: question,
-          answers: answers,
-          correct: game.name
+          answers: answers
         };
       }
     };
