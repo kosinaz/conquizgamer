@@ -15,7 +15,10 @@ conquizgamer.factory('quizGeneratorService', [
           question,
           subject,
           template;
-        templates = $filter('filter')(templates, {"subcategory": "is"});
+        templates = $filter('filter')(templates, {
+          "subcategory": "is",
+          "category": "!releaseDate"
+        });
         template = templates[Math.floor(Math.random() * templates.length)];
         filtered = $filter('filter')(games, function (value, index, array) {
           return value.hasOwnProperty(template.category);
