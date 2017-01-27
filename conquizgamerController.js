@@ -16,6 +16,7 @@ conquizgamer.controller('conquizgamerController', [
   ) {
     'use strict';
     $scope.totalPoints = 0;
+    $scope.fails = 0;
     $scope.templatesResponse = $http.get('templates.json');
     $scope.gamesResponse = $http.get('games.json');
     $q.all([$scope.gamesResponse, $scope.templatesResponse])
@@ -34,17 +35,26 @@ conquizgamer.controller('conquizgamerController', [
           $scope.quiz.answers.length - $scope.points
         ].disabled = "disabled";
         $scope.points -= 1;
+        if ($scope.points === 0) {
+          $scope.fails += 1;
+        }
       }
     }, 3000);
     $scope.evaluate = function (answer) {
       if ($scope.quiz.answers[0].text === answer.text) {
         $scope.totalPoints += $scope.points;
+      } else {
+        $scope.fails += 1;
       }
       $scope.quiz = quizGeneratorService.generate(
         $scope.templates,
         $scope.games
       );
       $scope.points = 5;
+      if ($scope.fails > 2) {
+        $scope.totalPoints = 0;
+        $scope.fails = 0;
+      }
     };
   }
 ]);
