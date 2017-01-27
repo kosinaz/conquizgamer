@@ -1,11 +1,17 @@
 /*global conquizgamer, answerEvaluaterService */
 conquizgamer.controller('conquizgamerController', [
-  '$scope',
   '$http',
+  '$interval',
   '$q',
-  'answerEvaluaterService',
+  '$scope',
   'quizGeneratorService',
-  function ($scope, $http, $q, answerEvaluaterService, quizGeneratorService) {
+  function (
+    $http,
+    $interval,
+    $q,
+    $scope,
+    quizGeneratorService
+  ) {
     'use strict';
     $scope.templatesResponse = $http.get('templates.json');
     $scope.gamesResponse = $http.get('games.json');
@@ -18,13 +24,22 @@ conquizgamer.controller('conquizgamerController', [
           $scope.games
         );
       });
-    $scope.points = 0;
+    $scope.points = 5;
+    $scope.totalPoints = 0;
+    $interval(function () {
+      if ($scope.points > 0) {
+        $scope.points -= 1;
+      }
+    }, 3000);
     $scope.evaluate = function (answer) {
-      $scope.points += answerEvaluaterService.evaluate($scope.quiz, answer);
+      if ($scope.quiz.correct === answer) {
+        $scope.totalPoints += $scope.points;
+      }
       $scope.quiz = quizGeneratorService.generate(
         $scope.templates,
         $scope.games
       );
+      $scope.points = 5;
     };
   }
 ]);
