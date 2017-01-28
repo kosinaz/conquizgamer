@@ -19,8 +19,8 @@ conquizgamer.controller('conquizgamerController', [
     'use strict';
     $scope.totalPoints = 0;
     $scope.fails = 0;
-    $scope.templatesResponse = $http.get('templates.json');
-    $scope.gamesResponse = $http.get('games.json');
+    $scope.templatesResponse = $http.get('assets/data/templates.json');
+    $scope.gamesResponse = $http.get('assets/data/games.json');
     $q.all([$scope.gamesResponse, $scope.templatesResponse])
       .then(function (values) {
         $scope.templates = values[1].data;
