@@ -1,0 +1,27 @@
+  {
+    "characters": [
+      "Mario",
+      "Luigi"
+    ],
+    "developer": "Nintendo R&D4",
+    "factions": [
+      "Human",
+      "Orc"
+    ],
+    "genre": "action/adventure/strategy/sandbox/simulation/action-adventure",
+    "items": [
+      "1-Up mushroom",
+      "Fire Flower"
+    ],
+    "locations": [
+      "Bloxonius",
+      "Candion"
+    ],
+    "name": "Super Mario Bros.",
+    "releaseDate": 1985,
+    "resources": [
+      "Gold",
+      "Wood"
+    ],
+    "subgenre": "first-person shooter/third-person shooter/platformer//real-time strategy/turn-based strategy//business simulation"
+  }
