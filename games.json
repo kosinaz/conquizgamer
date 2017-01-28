@@ -823,6 +823,72 @@
       "Wood"
     ],
     "subgenre": "turn-based strategy"
+  },
+
+
+  {
+    "characters": [
+      "Bibi Peligiano",
+      "Bowlsley",
+      "Bruno Martinez",
+      "Carla",
+      "Celso Flores",
+      "Chepito",
+      "Chief Bogen",
+      "Chowchilla Charlie",
+      "Domino Hurley",
+      "Don Copal",
+      "Eva",
+      "Glottis",
+      "Hector LeMans",
+      "Juan Brennis",
+      "Lola",
+      "Lupe",
+      "Manuel Manny Calavera",
+      "Maximino",
+      "Membrillo",
+      "Mercedes Meche Colomar",
+      "Naranja",
+      "Nick Virago",
+      "Olivia Ofrenda",
+      "Pugsy Peligiano",
+      "Raoul",
+      "Salvador Sal Limones",
+      "Terry Malloy",
+      "Toto Santos",
+      "Velasco"
+    ],
+    "developer": "LucasArts",
+    "factions": [
+      "Department of Death",
+      "Lost Souls Alliance"
+    ],
+    "genre": "adventure",
+    "items": [
+      "Bust-All",
+      "Excelsior Line",
+      "Fill-O-Dent"
+    ],
+    "locations": [
+      "Calavera Café",
+      "Department of Death",
+      "Edge of the World",
+      "El Marrow",
+      "Feline Meadows",
+      "High Rollers Lounge",
+      "Land of Eternal Rest",
+      "Land of the Dead",
+      "Land of the Living",
+      "Meadow",
+      "Nuevo Marrow",
+      "Petrified Forest",
+      "Rubacava",
+      "Scrimshaw",
+      "Sea of Lament",
+      "The Blue Casket"
+    ],
+    "name": "Grim Fandango",
+    "releaseDate": 1998
   }
 ]
 
