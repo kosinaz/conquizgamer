@@ -19,18 +19,18 @@ conquizgamer.controller('conquizgamerController', [
     'use strict';
     $scope.totalPoints = 0;
     $scope.fails = 0;
-    $scope.templatesResponse = $http.get('assets/data/templates.json');
-    $scope.gamesResponse = $http.get('assets/data/games.json');
-    $q.all([$scope.gamesResponse, $scope.templatesResponse])
-      .then(function (values) {
-        $scope.templates = values[1].data;
-        $scope.games = values[0].data;
-        $scope.remaining = $scope.games.slice();
-        $scope.quiz = quizGeneratorService.generate(
-          $scope.templates,
-          $scope.remaining
-        );
-      });
+    $q.all([
+      $http.get('assets/data/templates.json'),
+      $http.get('assets/data/games.json')
+    ]).then(function (requests) {
+      $scope.templates = requests[0].data;
+      $scope.games = requests[1].data;
+      $scope.remaining = $scope.games.slice();
+      $scope.quiz = quizGeneratorService.generate(
+        $scope.templates,
+        $scope.remaining
+      );
+    });
     $scope.points = 5;
     $interval(function () {
       if ($scope.points > 0 && !$scope.evaluating) {

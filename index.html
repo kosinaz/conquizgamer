@@ -12,13 +12,13 @@
 </head>
 
 <body>
-  <div ng-app="conquizgamer" ng-controller="conquizgamerController" class="w3-card-4 w3-margin w3-col m9 l6 w3-display-topmiddle w3-center {{animate}}">
+  <div ng-app="conquizgamer" ng-controller="conquizgamerController" class="w3-card-4 w3-col m9 l6 w3-display-topmiddle w3-center">
     <form>
       <h3><span class="w3-badge w3-green">{{totalPoints}}</span></h3>
-      <h3 class="w3-container w3-light-grey w3-padding-8 w3-margin-bottom">{{quiz.question}}</h3>
-      <div ng-repeat="answer in quiz.answers | orderBy : 'text'">
-        <button ng-click="evaluate(answer)" class="w3-btn w3-btn-block w3-round-large w3-large w3-blue w3-margin-bottom {{answer.color}}" ng-disabled="answer.disabled">{{answer.text}}</button>
-      </div>
+      <h3 class="w3-container w3-light-grey w3-padding-8">{{quiz.question}}</h3>
+      <h3 ng-repeat="answer in quiz.answers | orderBy : 'text'">
+        <button ng-click="evaluate(answer)" class="w3-btn w3-btn-block w3-round-large w3-blue {{answer.color}}" ng-disabled="answer.disabled">{{answer.text}}</button>
+      </h3>
       <h1><span class="w3-badge w3-green">{{points}}</span></h1>
       <h1>
         <span ng-if="fails === 0">😎😎😎</span>
